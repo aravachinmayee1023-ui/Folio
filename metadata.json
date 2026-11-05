@@ -1,0 +1,6 @@
+{
+  "name": "AI Portfolio Architect Studio",
+  "description": "Transform user background into ultra-modern single-page portfolios with Tailwind CSS, compliance policies, consent management, and production-ready HTML export.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

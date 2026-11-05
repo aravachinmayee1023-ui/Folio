@@ -1,0 +1,23 @@
+@import "tailwindcss";
+@custom-variant dark (&:where(.dark, .dark *));
+
+@layer base {
+  body {
+    font-family: ui-serif, Georgia, Cambria, "Times New Roman", serif;
+  }
+  .ui {
+    font-family: ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  }
+  :focus-visible {
+    outline: 3px solid #fbbf24 !important;
+    outline-offset: 3px !important;
+    border-radius: 4px;
+  }
+  @media (prefers-reduced-motion: reduce) {
+    * {
+      animation: none !important;
+      transition: none !important;
+      scroll-behavior: auto !important;
+    }
+  }
+}
